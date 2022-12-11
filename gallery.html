@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css\style.css">
+
+    <style>
+
+
+/* header {
+    height: 13vh;
+}
+.img-gallery {
+    margin-top: 200px;
+}
+        .logo3 .logo  {
+           position: absolute;
+           top: 50%;
+           left: 50%;
+           transform: translate(-50%, -50%);
+           height: 90px;
+        } */
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+
+
+
+  <header>
+    <img class="logo2" src="ep.png" >
+    <a href="#" class="logo">Education<span>Point</span></a>
+    
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <nav class="navbar">
+        <a href="index.html">home</a>
+        <a href="index.html">about us</a>
+        <a href="index.html">course</a>
+        <a href="index.html">teacher</a>
+        <a href="index.html" target="_blank">Gallery</a>
+        <a href="index.html">contact</a>
+    </nav>
+
+</header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="full-img" id="fullImgBox">
+    <img src="1.jpg" id="fullImg">
+    <span onclick="closeFullImg()">X</span>
+</div>
+
+
+<div class="img-gallery">
+    <img src="gallery\1.jpg" onclick="openFullImg(this.src)">
+    <img src="gallery\2.jpg" onclick="openFullImg(this.src)"> 
+    <img src="gallery\3.jpg" onclick="openFullImg(this.src)"> 
+    <img src="gallery\4.jpg" onclick="openFullImg(this.src)"> 
+    <img src="gallery\5.jpg" onclick="openFullImg(this.src)"> 
+    <img src="gallery\6.jpg" onclick="openFullImg(this.src)"> 
+    <img src="gallery\7.jpg" onclick="openFullImg(this.src)"> 
+    <img src="gallery\8.jpg" onclick="openFullImg(this.src)"> 
+    <img src="gallery\9.jpg" onclick="openFullImg(this.src)"> 
+    <img src="gallery\10.jpg" onclick="openFullImg(this.src)">
+    <img src="gallery\11.jpg" onclick="openFullImg(this.src)">
+    <img src="gallery\12.jpg" onclick="openFullImg(this.src)">
+    <img src="gallery\13.jpg" onclick="openFullImg(this.src)">
+    <img src="gallery\14.jpg" onclick="openFullImg(this.src)">
+    <img src="gallery\15.jpg" onclick="openFullImg(this.src)">
+
+
+
+
+    <!-- custom js file link -->
+<script>
+
+const fullImgBox = document.getElementById('fullImgBox')
+const fullImg = document.getElementById('fullImg')
+
+
+function openFullImg(pic) {
+    fullImgBox.style.display = 'flex'
+    fullImg.src = pic
+}
+
+
+function closeFullImg() {
+    fullImgBox.style.display = 'none'
+
+}
+</script>
+
+</body>
+</html>
